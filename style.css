@@ -11,6 +11,15 @@ body {
 }
 .header {
   margin-bottom: 40px;
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  /* background-color: green; */
+  display: flex;
+  gap: 16px;
 }
 .fact-form {
   background-color: #44403c;
