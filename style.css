@@ -51,6 +51,9 @@ h1 {
   font-family: "Coiny", sans-serif;
   /* display: inline; */
 }
+.category {
+  padding-bottom: 16px;
+}
 .fact {
   font-size: 20px;
   line-height: 1.4;
@@ -71,6 +74,7 @@ h1 {
   padding-top: 3px;
   padding-left: 10px;
   padding-right: 10px;
+  border-radius: 100px;
 }
 .vote-buttons {
   margin-left: auto;
@@ -89,4 +93,33 @@ ul {
 .source:hover,
 .source:active {
   color: #3b82f6;
+}
+.btn {
+  border: none;
+  font-family: "Coiny", sans-serif;
+  line-height: 1;
+  text-transform: uppercase;
+  font-size: 17px;
+  padding: 16px 0 13px;
+  background-image: linear-gradient(135deg, #3b82f6, #ef4444, #16a34a, #eab308);
+  color: inherit;
+  transition: 0.3s;
+  border-radius: 100px;
+  cursor: grab;
+}
+.btn:hover {
+  transform: scale(110%) rotate(-2deg);
+}
+.btn-large {
+  font-size: 20px;
+  padding: 20px 32px 17px;
+  background-color: greenyellow;
+}
+.btn-all-catgories {
+  margin-bottom: 16px;
+  width: 100%;
+}
+.btn-category {
+  width: 100%;
+  background-image: none;
 }
